@@ -21,7 +21,7 @@ declare namespace RSMQWorker {
     }
 
     export interface Options {
-        interval?: number;
+        interval?: number | number[];
         maxReceiveCount?: number;
         invisibletime?: number;
         defaultDelay?: number;
